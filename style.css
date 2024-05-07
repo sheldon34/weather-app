@@ -1,0 +1,45 @@
+*{
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;}
+
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color:blueviolet;
+    background-image:url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color:#ffe3e3;}
+    .container{
+        border-radius: 30px;
+        min-width: 290px;
+        min-height: 350px;
+        background-color: hsla(50, 15%, 0%, 0.1);
+        backdrop-filter: blur(15px);
+        padding: 2em;
+    }
+    button{
+        border-radius:50%;
+    }
+    #search_bar{
+        height: 22px;
+    border: solid   3px   rgb(38, 37, 38);
+    color: black;
+    background-color: #dfd7d7;
+     border-radius: 34px;  
+    
+    }
+    .output{
+  display: block;
+        justify-content: baseline;
+    font-weight: 10px;}
+.hidden{
+    display: none;
+}

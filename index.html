@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>weather app</title>
+</head>
+<body>
+    <section class="container">
+    <div class="not_found">
+        <!-- search bar -->
+<div class="input">
+   <i class='bx bx-location-plus'> </i> 
+     <input type="text" id="search_bar"   placeholder="Search location" autocomplete="additional-name">
+    <button  id="search"><i class='bx bx-search-alt'></i></button>
+</div>
+<!-- other parameters -->
+<div class="output">
+    <h1>Weather in <span class="city">Nairobi</span></h1>
+    <h1> <i class='bx bxs-thermometer'></i>Temperature:<span class="degree">13.4</span>°C</h1>
+<h1 class="description"  id="clouds">Sunny</h1>
+
+ <h2><i class='bx bxs-droplet-half'></i>Humidity:<span class="humidity">60</span>%</h2>
+    <h2><i id="icon" class='bx bx-wind'>
+    </i> Wind Speed<span class="wind">3.6</span>km/h</h2>
+</div>
+
+    </div>
+</section>
+    <script src="/main.js"></script>
+</body>
+</html>
